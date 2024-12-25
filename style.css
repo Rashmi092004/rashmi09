@@ -1,0 +1,100 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #4682B4; /* Steel blue background for a formal look */
+    color: #ffffff; /* White text for contrast */
+}
+
+/* Form Container Styling */
+.form-container {
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff; /* White form for clarity */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Header Styling */
+h2 {
+    text-align: center;
+    color: #2c3e50; /* Dark neutral color for the heading */
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* Form Layout */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label Styling */
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333; /* Dark text for form labels */
+}
+
+/* Input, Textarea, Select, and Button Styling */
+input, textarea, select, button {
+    margin-bottom: 15px;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/* Input and Textarea Focus Styling */
+input:focus, textarea:focus, select:focus {
+    border-color: #5a9bd4;
+    outline: none;
+    box-shadow: 0 0 5px #5a9bd4;
+}
+
+/* Textarea Resizing */
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* Button Styling */
+button {
+    background-color: #5a9bd4; /* Blue for the button */
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #4778a6;
+}
+
+/* Button Active Effect */
+button:active {
+    transform: scale(0.98);
+}
+
+/* Placeholder Text Styling */
+input::placeholder, textarea::placeholder {
+    color: #aaa;
+    font-size: 14px;
+}
+
+/* Gender Radio Button Styling */
+div input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .form-container {
+        width: 90%;
+    }
+}
